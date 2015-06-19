@@ -2,6 +2,11 @@
 
 set -ex
 
+echo "DEBUG-------------------"
+cat ./attachements/blah.txt
+cat ./different_name/arg.txt
+echo "DEBUG^^^^^^^^^^^^^^^^^^^"
+
 #
 # Drop to lower case, since hostnames should be lc anyway.
 #
