@@ -1,4 +1,6 @@
-#!/usr/bin/sudo /bin/bash -ex
+#!/usr/bin/sudo /bin/bash
+
+set -ex
 
 #
 # Drop to lower case, since hostnames should be lc anyway.
