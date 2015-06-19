@@ -3,8 +3,8 @@
 set -ex
 
 echo "DEBUG-------------------"
-cat ./attachements/blah.txt
-cat ./different_name/arg.txt
+cat dir1/dir1.txt
+cat dir2/dir2.txt
 echo "DEBUG^^^^^^^^^^^^^^^^^^^"
 
 #
