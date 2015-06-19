@@ -3,7 +3,7 @@ description 'System scripts'
 
 version     '1.0.0'
 
-recipe      'ops_sys::setup_hostname' 'Set hostname'
+recipe      'ops_sys::setup_hostname', 'Set hostname'
 
 attribute   'HOSTNAME',
   :display_name => 'HOSTNAME',
