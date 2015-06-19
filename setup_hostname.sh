@@ -20,6 +20,8 @@ if (echo $HOSTNAME | grep -q ":"); then
   echo "Found namespaced hostname: NAMESPACE='$namespace' HOSTNAME='$HOSTNAME'"
 fi
 
+# this is part of my featue branch
+
 #
 # Check for a numeric suffix (like in a server array)
 # example:  array name #1
